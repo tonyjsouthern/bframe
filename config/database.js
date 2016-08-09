@@ -69,6 +69,5 @@ module.exports = {
     client: 'pg',
     connection: Env.get('DATABASE_URL')
   }
-  }
 
 }
