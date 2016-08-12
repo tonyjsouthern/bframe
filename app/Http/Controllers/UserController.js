@@ -42,9 +42,3 @@ class UserController {
 } // closing for controller
 
 module.exports = UserController;
-
-
-// {"email":"tsouthern@tsouthern.com","password":"123456","username":"tsouthern","created_at":"2016-08-08 13:32:49","updated_at":"2016-08-08 13:32:49","id":1}
-
-
-// {"email":"test@test.com","username":"test","created_at":"2016-08-08 14:07:51","updated_at":"2016-08-08 14:07:51","id":2}

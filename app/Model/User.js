@@ -8,6 +8,10 @@ class User extends Lucid {
     return ['password']
   }
 
+  images () {
+    return this.hasMany('App/Model/Image')
+  }
+  
   apiTokens () {
     return this.hasMany('App/Model/Token')
   }
